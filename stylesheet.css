@@ -5,6 +5,10 @@ brown {
   font-color: brown;
 }
 
+body {
+  background-color: CC9966;
+}
+
 img.resize {
   max-width:20%;
   max-height: 20%;
