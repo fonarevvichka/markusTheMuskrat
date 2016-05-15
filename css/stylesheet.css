@@ -9,21 +9,25 @@ body {
   background-color: CC9966;
 }
 
-h1 {
+h1, h2 {
   text-align: center;
-}
-/*
-small {
-  text-align: left;
-}*/
-
-li {
-    padding-right: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
 }
 
 img.resize {
-  max-width:20%;
-  max-height: 20%;
+  max-width:32%;
+  max-height: 32%;
+
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+img.resizeSmall {
+  max-width: 7%;
+  max-height: 7%;
+}
+
+.pull-right {
+  float: right !important;
 }
