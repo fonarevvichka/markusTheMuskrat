@@ -12,6 +12,10 @@ body {
 h1 {
   text-align: center;
 }
+/*
+small {
+  text-align: left;
+}*/
 
 li {
     padding-right: 5px;
