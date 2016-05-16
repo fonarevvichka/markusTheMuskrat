@@ -2,7 +2,7 @@
 <html lang = "en">
 	<link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<?php include 'counter.php';?>
+	<?php include ("counter.php")?>
 	<head>
 		<title> Markus is a friend </title>
 		<meta charset="utf-8">
@@ -10,19 +10,10 @@
 	</head>
 	<body>
 				<h6> *This is a beta, lots of work is being put in to make this better* </h6>
-
+<!-- 
 				<?php
-				$myfile = fopen("webdictionary.txt", "r") or die("Unable to open file!");
-				echo fread($myfile,filesize("webdictionary.txt"));
-				fclose($myfile);
-				?>
-
-
-				<?php
-				  $txtFile = fopen("countlog.txt", "r+");
-				  echo fread($txtFile, filesize("countlog.txt"));
-				  fclose($txtFile);
-				?>
+				include ("counter.php");
+				?> -->
 
 			<div class="container">
 				<div class="jumbotron">
