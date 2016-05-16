@@ -8,9 +8,21 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
-
 	<body>
 				<h6> *This is a beta, lots of work is being put in to make this better* </h6>
+
+				<?php
+				$myfile = fopen("webdictionary.txt", "r") or die("Unable to open file!");
+				echo fread($myfile,filesize("webdictionary.txt"));
+				fclose($myfile);
+				?>
+
+
+				<?php
+				  $txtFile = fopen("countlog.txt", "r+");
+				  echo fread($txtFile, filesize("countlog.txt"));
+				  fclose($txtFile);
+				?>
 
 			<div class="container">
 				<div class="jumbotron">
@@ -50,18 +62,18 @@
 				<h2> Fun fact of the day* </h1>
 				<h3>
 					<small> *Not actually everyday <small>
-				<h2>
-					<p>
-						<small>
-							<ul>
-								<li>Muskrats usually live for about 3-5 years in the wild, and about 10 years in captivity. </li>
-							</ul>
-						<small>
-					</p>
-			</div>
 
+			</div>
+			<h4>
+						<ul>
+							<li>Muskrats usually live for about 3-5 years in the wild, and about 10 years in captivity. </li>
+							<li>An average muskrat grows to between 16" - 25" and weighs about 3lb </li>
+						</ul>
+			</h4>
+			<p>
+			</p>
 			<div class = "jumbotron">
-					<h2> Sightings of Markus </h2>
+					<h2> Sightings of Markus or his Habitat</h2>
 				</div>
 					<img class = "resize" src = "https://scontent.fbos1-1.fna.fbcdn.net/v/t1.0-9/13177167_10208013494273978_1755495851305184073_n.jpg?oh=29dd7fdafa2eb4900eeb655a7eabbfeb&oe=57DB51BE" /> 	<!-- markus's face -->
 					<img class = "resize" src = "https://scontent.fbos1-1.fna.fbcdn.net/v/t1.0-0/s480x480/13254048_10208034855567997_215656266559975785_n.jpg?oh=b3788f196629e45971974d55b370bbbc&oe=57DA353C" /> <!-- markus profile -->
@@ -69,6 +81,7 @@
 					<img class = "resize" src = "https://scontent.fbos1-1.fna.fbcdn.net/v/t1.0-0/p206x206/13174171_10208035707109285_7979274490377382306_n.jpg?oh=82111c498774b8fe80f1aae2226e6412&oe=57D47241" />
 					<img class = "resize" src = "https://scontent.fbos1-1.fna.fbcdn.net/v/t1.0-9/13165876_10208035706749276_3727613688198493437_n.jpg?oh=83c525f3023a061ab7c5aaaa71fa4719&oe=57D673D6" />
 					<img class = "resize" src = "https://scontent.fbos1-1.fna.fbcdn.net/v/t1.0-0/s480x480/13179233_1788818964688892_5309156421228415182_n.jpg?oh=6d230c49455841ce9fa1343bd6b1c92f&oe=579AD912" />
+					<img class = "resize" crc = "https://scontent.ford4-1.fna.fbcdn.net/v/t1.0-0/q85/p261x260/13177519_1020044021423233_8418665612523149609_n.jpg?oh=87412c68db81f36564aa03c72a7a123a&oe=57DC4CF6" />
 				</div>
 
 				<div class= "container">
