@@ -7,9 +7,23 @@
   <title> Admin Page </title>
   <meta charset = "utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script typ="text/javascript" src="js/script.js"></script>
 </head>
 <body>
-  test of admin page
+ <div class = "container">
+  <div class = "jumbotron">
+    <h2> Admin Log On: <h2>
+      <div class = pullright>
+        <div class="form-group"> </div>
+        <!-- <h2>
+          <small>
+            <label for="pswd"> Password :</label>
+          </small>
+        </h2> -->
+      <input class = "span4" type="text" placeholder="Password" class="form-control" id="pswd">
+      <button onclick ="checkPassword()" class="btn btn-success" type="button"> Log On </button>
+      </div>
+    </div>
+  </div>
 </body>
-
 </HTML>
